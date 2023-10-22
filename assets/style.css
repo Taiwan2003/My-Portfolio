@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    border: none;
+    padding: 0;
+}
+body{
+    background-color: rgb(46, 46, 46);
+    color: white;
+    font-family: 'Jost', sans-serif;
+}
+#top {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+    margin-top: 15px;
+}
+li{
+    padding: 10px;
+}
+#myName{ 
+    list-style-type: none;
+    font-weight: 800;
+    font-size:25px ;
+    color: #04D9D9;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 500px;
+}
+#photoPerfil{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid #04D9D9;
+}
+#center{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+#nome{
+    font-size: 50px;
+}
+#descricaoNome{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+#centerh1h2{
+    text-align: center;
+    padding: 0;
+}
+
+h3{
+    text-align: center;
+    font-size: 40px;
+}
+#AboutMe{
+    border-bottom: 2px solid #04D9D9;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+#textAboutme{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+
+#personalDetails{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#phone{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#textPhone{
+    color: #04D9D9;
+}
+
+#email{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 100px;
+    margin-right: 100px; 
+}
+#textEmail{
+    color: #04D9D9;
+}
+
+#address{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 100px;
+    margin-right: 100px; 
+}
+#textAddress{
+    color: #04D9D9;
+}
+
+#jobStatus{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 100px;
+    margin-right: 100px; 
+}
+#textJobStatus{
+    color: #04D9D9;
+}
+
+#htmlImg{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+#cssImg{
+    width: 89px;
+    height: 89px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+#jsImg{
+    width: 90px;
+    height: 90px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#skills{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#textSkills{
+    font-size: 30px;
+}
+#personalDetailsAndSkills {
+    display: flex; 
+    flex-wrap: wrap; 
+    margin-bottom: 200px;
+} 
+#personalDetails {
+    flex: 1; 
+} 
+#skills {
+    flex: 1; 
+    margin-left: 500px;
+}
+
+#projects{
+    border-bottom: 2px solid #04D9D9;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+#relogio{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#imgRelogio{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+#textRelogio{
+    padding-top: 15px;
+}
+.projects{
+    margin-bottom: 200px;
+}
+
+footer{
+    background-color: #04D9D9;
+}
+#iconsContacts{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    padding-bottom: 10px;
+}
+h4{
+    padding-top: 30px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 20px;
+}
+header{
+    margin-bottom: 150px;
+}
+#redes{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+#linkRedes{
+    text-decoration: none;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 450px) {
+    #top {
+        justify-content: center; 
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        text-align: center; 
+        gap: 0;
+    }
+
+    li {
+        padding: 15px; 
+    }
+    
+    #myName {
+        display: none;
+    }
+    #textAboutme{
+        margin-left: 60px;
+        margin-right: 50px;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    #phone,#email,#address,#jobStatus{
+        text-align: center;
+        width: 300px;
+        margin-left: 60px;
+        gap: 70px;
+        padding-bottom: 5px;
+    }
+    #personalDetails{
+        margin-left: 70px;
+        text-align: center;
+    }
+    #personalDetailsAndSkills{
+        margin-bottom: 100px;
+    }
+    #skills{
+        margin-top: 100px;
+        margin-left: 40px;
+        text-align: center;
+    }
+    #relogio{
+        margin-left: 40px;
+        margin-right: 50px;
+        text-align: center;
+    }
+    #projects{
+        margin-bottom: 50px;
+    }
+    h4{
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    #iconsContacts{
+        margin-left: 50px;
+        padding-bottom: 15px;
+    }
+}
+
+@media(min-width: 451px) and (max-width: 930px){
+    #top {
+        justify-content: center; 
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        text-align: center; 
+        gap: 0;
+    }
+
+    li {
+        padding: 50px; 
+    }
+    
+    #myName {
+        display: none;
+    }
+    #textAboutme{
+        margin-left: 100px;
+        margin-right: 50px;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    #phone,#email,#address,#jobStatus{
+        text-align: center;
+        width: 300px;
+        margin-left: 235px;
+        gap: 70px;
+        padding-bottom: 5px;
+    }
+    #personalDetails{
+        margin-left: 100px;
+        text-align: center;
+    }
+    #personalDetailsAndSkills{
+        margin-bottom: 100px;
+        display: block;
+    }
+    #skills{
+        margin-top: 100px;
+        margin-left: 100px;
+        text-align: center;
+    }
+    #relogio{
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: center;
+    }
+    #projects{
+        margin-bottom: 50px;
+    }
+    h4{
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    #iconsContacts{
+        margin-left: 50px;
+        padding-bottom: 15px;
+    }
+}
+
+#imgRelogio:hover{
+    transform: scale(1.05);
+    transition: .6s;
+}
+html{
+    scroll-behavior: smooth;
+}
+#home:hover, #about:hover, #project:hover, #contacts:hover{
+    color: black;
+    background-color: #04D9D9;
+    padding: 5px;
+    border-radius: 5px;
+    transform: scale(1.05);
+    transition: .6s;
+}
