@@ -69,57 +69,29 @@ h3{
 #textAboutme{
     margin-left: 100px;
     margin-right: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
+}
+
+#textpersonalDetails{
+    border-bottom: 2px solid #04D9D9;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 #personalDetails{
-    margin-left: 100px;
-    margin-right: 100px;
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-
-#phone{
     display: flex;
     flex-direction: row;
     gap: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
+    text-align: center;
+    justify-content: center;
 }
-#textPhone{
-    color: #04D9D9;
+#personal{
+    margin-bottom: 100px;
 }
-
-#email{
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    margin-left: 100px;
-    margin-right: 100px; 
-}
-#textEmail{
-    color: #04D9D9;
-}
-
-#address{
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    margin-left: 100px;
-    margin-right: 100px; 
-}
-#textAddress{
-    color: #04D9D9;
-}
-
-#jobStatus{
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    margin-left: 100px;
-    margin-right: 100px; 
-}
-#textJobStatus{
+#textDetails{
     color: #04D9D9;
 }
 
@@ -146,20 +118,20 @@ h3{
     margin-right: 100px;
 }
 #textSkills{
-    font-size: 30px;
+    border-bottom: 2px solid #04D9D9;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
 #personalDetailsAndSkills {
     display: flex; 
-    flex-wrap: wrap; 
-    margin-bottom: 200px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
 } 
-#personalDetails {
-    flex: 1; 
-} 
-#skills {
-    flex: 1; 
-    margin-left: 500px;
-}
 
 #projects{
     border-bottom: 2px solid #04D9D9;
@@ -240,36 +212,20 @@ a{
     #myName {
         display: none;
     }
+
     #textAboutme{
         margin-left: 60px;
         margin-right: 50px;
         text-align: center;
         margin-bottom: 100px;
     }
-    #phone,#email,#address,#jobStatus{
-        text-align: center;
-        width: 300px;
-        margin-left: 60px;
-        gap: 70px;
-        padding-bottom: 5px;
-    }
-    #personalDetails{
-        margin-left: 70px;
-        text-align: center;
-    }
-    #personalDetailsAndSkills{
-        margin-bottom: 100px;
-    }
-    #skills{
-        margin-top: 100px;
-        margin-left: 40px;
-        text-align: center;
-    }
+
     #relogio{
         margin-left: 40px;
         margin-right: 50px;
         text-align: center;
     }
+
     #projects{
         margin-bottom: 50px;
     }
@@ -302,32 +258,14 @@ a{
     #myName {
         display: none;
     }
+
     #textAboutme{
         margin-left: 100px;
         margin-right: 50px;
         text-align: center;
         margin-bottom: 100px;
     }
-    #phone,#email,#address,#jobStatus{
-        text-align: center;
-        width: 300px;
-        margin-left: 235px;
-        gap: 70px;
-        padding-bottom: 5px;
-    }
-    #personalDetails{
-        margin-left: 100px;
-        text-align: center;
-    }
-    #personalDetailsAndSkills{
-        margin-bottom: 100px;
-        display: block;
-    }
-    #skills{
-        margin-top: 100px;
-        margin-left: 100px;
-        text-align: center;
-    }
+    
     #relogio{
         margin-left: 50px;
         margin-right: 50px;
